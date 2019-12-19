@@ -54,6 +54,11 @@
 			<checksum>https://github.com/VikingsTest/repo.vikingsTest/raw/master/krypton/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/VikingsTest/repo.vikingsTest/raw/master/krypton</datadir>
 		</dir>
+		<dir minversion="18.0">
+			<info compressed="true">https://github.com/VikingsTest/repo.vikingsTest/raw/master/leia/addons.xml</info>
+			<checksum>https://github.com/VikingsTest/repo.vikingsTest/raw/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/VikingsTest/repo.vikingsTest/raw/master/leia</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Vikings The BEst</summary>
