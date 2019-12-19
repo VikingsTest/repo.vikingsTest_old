@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.OnePlay" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="2.9.9" provider-name="Equipe OnePlay"> 
+<addons>
+<addon id="plugin.video.OnePlay" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]" version="2.9.9" provider-name="Equipe OnePlay">
   <requires>
 	<import addon="xbmc.addon" version="12.0.0"/>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -11,7 +12,7 @@
     <import addon="script.module.requests"/>
     <import addon="script.module.httplib2"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson"/> 
+    <import addon="script.module.simplejson"/>
 	<import addon="script.common.plugin.cache"/>
     <import addon="script.module.metahandler"/>
     <import addon="script.module.livestreamer"/>
@@ -21,17 +22,17 @@
     <import addon="script.module.urlresolver"/>
     <import addon="script.module.unidecode"/>
   </requires>
-  
+
   <extension point="xbmc.python.pluginsource" library="basedem.py">
     <provides>video</provides>
   </extension>
-  
+
   <extension point="xbmc.addon.repository" name="[COLOR aquamarine][B]ONE[/COLOR][COLOR white]PLAY[/B][/COLOR]">
 	<info compressed="false">https://raw.githubusercontent.com/OnePlayHD/OneRepo/master/addons.xml</info>
 	<checksum>https://raw.githubusercontent.com/OnePlayHD/OneRepo/master/addons.xml.md5</checksum>
 	<datadir zip="true">https://raw.githubusercontent.com/OnePlayHD/OneRepo/master/ZipFiles/</datadir>
   </extension>
-  
+
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">[COLOR aquamarine]ONE[/COLOR]PLAY - It is a free video plugin for KODI that aggregates video playback links of various types.
 Bringing pleasure and pleasure for you to watch and enjoy every moment with family and friends.</summary>
@@ -51,3 +52,4 @@ Levando o lazer e o prazer para vocÃªs assistir e curtir cada momento com a famÃ
     </assets>
   </extension>
 </addon>
+</addons>
